@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-task1</title>
+</head>
+<body>
+    <script>
+         var number = prompt("Enter an Number");
+        var reverse=0,temp=0;
+        var copy=number;
+        while(number > 0){
+            temp=number%10;
+            reverse=reverse*10+temp;
+            number=parseInt(number/10);
+        }
+        alert("The Reverse of the given number is : "+reverse);
+    </script>
+</body>
+</html>
